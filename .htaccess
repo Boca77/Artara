@@ -1,2 +1,8 @@
 RewriteEngine On
+
+# Prevent direct access to backend folders
+RewriteRule ^(src|vendor|storage|node_modules)/ - [F,L,NC]
+
+# Redirect everything to /public
+RewriteCond %{REQUEST_URI} !^/public/
 RewriteRule ^(.*)$ public/$1 [L]
