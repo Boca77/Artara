@@ -1,0 +1,11 @@
+@use 'variables' as *;
+
+@mixin heading-font {
+  font-family: $font-primary;
+  font-weight: bold;
+}
+
+@mixin body-font {
+  font-family: $font-primary;
+  font-weight: normal;
+}

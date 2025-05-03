@@ -1,0 +1,28 @@
+@use '../abstracts' as *;
+body {
+  background-color: $color-bg;
+  font-family: $font-primary;
+  font-size: $font-body;
+  color: $color-text-primary;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  @include heading-font;
+}
+
+button {
+  background-color: $color-btn-bg;
+  color: $color-btn-text;
+  font-size: $font-button;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-icons {
+  background-color: $color-footer-bg;
+  color: $color-btn-text;
+  border-radius: 50%;
+}
