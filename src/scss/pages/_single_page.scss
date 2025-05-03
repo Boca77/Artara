@@ -59,14 +59,15 @@
 
         .more-img-container {
             display: flex;
-            gap: 2rem; 
-            max-width: 45%;
+            gap: 2%; 
             justify-content: space-between;
+            flex-wrap: wrap;
             
             img {
-            width: 100%;
-            max-height: auto; 
-            object-fit: contain;
+                width: 48%;
+                max-height: auto; 
+                object-fit: contain;
+                margin-bottom: 3rem;
             }
         }
     }

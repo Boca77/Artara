@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Product 1",
+            "description": "Description for product 1 lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.",
+            "price": 9.99,
+            "image": "image.png",
+            "more-imgs" : ["image.png", "image.png"]
+        },
+        {
+            "id": 2,
+            "name": "Product 2",
+            "description": "Description for product 2 lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.",
+            "price": 19.99,
+            "image": "image2.jpeg",
+            "more-imgs" : ["image2.jpeg", "image2.jpeg", "image2.jpeg", "image2.jpeg", "image2.jpeg"]
+        },
+        {
+            "id": 3,
+            "name": "Product 3",
+            "description": "Description for product 3 lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.",
+            "price": 29.99,
+            "image": "image3.jpeg",
+            "more-imgs" : ["image3.jpeg"]
+        },
+        {
+            "id": 4,
+            "name": "Product 4",
+            "description": "Description for product 4 lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.",
+            "price": 39.99,
+            "image": "image4.jpeg",
+            "more-imgs" : ["image4.jpeg", "image4.jpeg", "image4.jpeg"]
+
+        },
+        {
+            "id": 5,
+            "name": "Product 5",
+            "description": "Description for product 5 lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.",
+            "price": 49.99,
+            "image": "image5.jpeg",
+            "more-imgs" : ["image5.jpeg", "image5.jpeg"]
+
+        }
+    ]
+}

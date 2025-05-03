@@ -1,3 +1,28 @@
 @use 'abstracts' as *;
 @use 'base';
 @use 'pages';
+
+.d-none {
+    display: none;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.btn{
+    background-color: $color-accent;
+    color: $color-btn-text;
+    font-size: $font-button;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;   
+}

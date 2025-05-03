@@ -79,14 +79,40 @@ button {
 }
 .single-page .single-page-container .more-about-product .more-img-container {
   display: flex;
-  gap: 2rem;
-  max-width: 45%;
+  gap: 2%;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .single-page .single-page-container .more-about-product .more-img-container img {
-  width: 100%;
+  width: 48%;
   max-height: auto;
   object-fit: contain;
+  margin-bottom: 3rem;
+}
+
+.d-none {
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #235D6F;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
