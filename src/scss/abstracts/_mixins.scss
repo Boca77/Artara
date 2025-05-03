@@ -3,6 +3,7 @@
 @mixin heading-font {
   font-family: $font-primary;
   font-weight: bold;
+  font-size: $font-heading;
 }
 
 @mixin body-font {

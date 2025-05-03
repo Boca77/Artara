@@ -1,8 +1,9 @@
 body {
-  background-color: #FDFBF8;
+  background-color: #F9F8F4;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #1A1A1A;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -10,6 +11,7 @@ body {
 h1, h2, h3 {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 48px;
 }
 
 button {
@@ -25,6 +27,66 @@ button {
   background-color: #000000;
   color: #FFFFFF;
   border-radius: 50%;
+}
+
+.single-page {
+  margin: 4rem 0;
+}
+.single-page .single-page-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.single-page .single-page-container h3 {
+  font-size: 30px;
+}
+.single-page .single-page-container .about-product {
+  display: flex;
+  gap: 10%;
+}
+.single-page .single-page-container .about-product .description {
+  flex-basis: 40%;
+}
+.single-page .single-page-container .about-product .description .subtitle {
+  font-size: 30px;
+}
+.single-page .single-page-container .about-product .description .price {
+  font-size: 34px;
+}
+.single-page .single-page-container .about-product .description h2 {
+  width: 60%;
+}
+.single-page .single-page-container .about-product .description p {
+  font-size: 20px;
+}
+.single-page .single-page-container .about-product .product-main-image {
+  max-height: 100%;
+  flex-grow: 1;
+  display: flex;
+}
+.single-page .single-page-container .about-product .product-main-image img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+.single-page .single-page-container .more-about-product {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.single-page .single-page-container .more-about-product h3 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.single-page .single-page-container .more-about-product .more-img-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 45%;
+  justify-content: space-between;
+}
+.single-page .single-page-container .more-about-product .more-img-container img {
+  width: 100%;
+  max-height: auto;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=main.css.map */
