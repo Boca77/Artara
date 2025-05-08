@@ -90,6 +90,11 @@ button {
   margin-bottom: 3rem;
 }
 
+@media (max-width: 650px) {
+  .about-product {
+    flex-direction: column;
+  }
+}
 .d-none {
   display: none;
 }

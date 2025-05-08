@@ -74,3 +74,9 @@
 
   }
 }
+
+@media (max-width: 650px) {
+   .about-product {
+        flex-direction: column;
+   }
+}
